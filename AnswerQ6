@@ -1,0 +1,17 @@
+Difference Between Python Shell and Python Script Files
+
+| Feature          |     Python Shell                                                                    | Python Script Files                                      |
+|------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Definitio        | An interactive environment where you can type and execute Python code line-by-line. | A file containing Python code, usually with a `.py` extension, that is executed as a whole program. |
+| Usage            | Used for quick testing, experimenting with small code snippets, or debugging.       | Used for writing full programs or applications that need to be saved, shared, and reused.           |
+| Execution        | Code is executed line-by-line interactively;results are shown immediately after each line. | Code is executed all at once when the script is run; results are shown after the entire script is executed. |
+| Persistence      | Does not save the code; the code disappears once you exit the shell.                | Saves the code permanently in a file, allowing you to run it multiple times or modify it later.       |
+| Ease of Use      | Easier for beginners or for quick tasks that require immediate feedback.            | Suitable for more complex, structured, and reusable code, where multiple functions and modules are needed. |
+| Error Handling   | Errors are shown immediately after a line of code is executed.You can correct and retry right away. | Errors appear after the entire script is executed; debugging may require running the script multiple times. |
+| Environment      | Usually accessed via a terminal/cmd,provides an interactive, real-time environment. | Written in text editors or integrated development environments (IDEs) and executed through the Python interpreter. |
+| Suitable For     | Learning Python, testing small pieces of code, exploring functions, and debugging.  | Developing complete applications, automating tasks, and writing complex programs.                     |
+
+Summary
+
+Python Shell := is great for learning, quick tests, and immediate feedback. It's interactive but temporary; nothing is saved once you exit.
+Python Script Files:= are used for building full applications or larger programs. Scripts are saved as files, making them reusable, shareable, and suitable for larger and more complex tasks.
